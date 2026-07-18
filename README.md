@@ -18,8 +18,11 @@ brew "<formula>"
 To bump a formula to a new release, either let Homebrew do it all in one step:
 
 ```sh
-brew bump-formula-pr --url https://github.com/EarthmanMuons/<project>/archive/refs/tags/v<version>.tar.gz Formula/<formula>.rb
+brew bump-formula-pr --write-only --commit --version <version> Formula/<formula>.rb
 ```
+
+This updates the formula, runs `brew audit`, and commits the change locally
+without any GitHub API interaction; push when ready.
 
 Or manually: download the release tarball and compute its checksum,
 
