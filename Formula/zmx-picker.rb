@@ -1,8 +1,8 @@
 class ZmxPicker < Formula
   desc "Fuzzy finder for zmx sessions and repositories"
   homepage "https://github.com/EarthmanMuons/zmx-picker"
-  url "https://github.com/EarthmanMuons/zmx-picker/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "17acc097750e5ffd85c1c514bd82283f703443567e70aa08bfc9d880c8566017"
+  url "https://github.com/EarthmanMuons/zmx-picker/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "6676a9ee710c4099c30d378c72dbb77080d602fb574670a791df302cb890f4e9"
   license "0BSD"
 
   depends_on "fzf"
